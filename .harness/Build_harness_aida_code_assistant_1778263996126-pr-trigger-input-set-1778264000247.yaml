@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_aida_code_assistant_1778263996126-pr-trigger-input-set
+  identifier: Build_harness_aida_code_assistant_1778263996126prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harness_aida_code_assistant_1778263996126
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
